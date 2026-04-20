@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.venv
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data and Models (AI/ML)
+data/
+*.csv
+*.json
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.npy
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
