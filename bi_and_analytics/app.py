@@ -26,6 +26,16 @@ species_selected = st.sidebar.multiselect(
 x_axis = st.sidebar.selectbox("X-axis Variable:", options=features, index=0)
 y_axis = st.sidebar.selectbox("Y-axis Variable:", options=features, index=1)
 
+with st.sidebar:
+    st.divider() # Adds a clean line to separate filters from your bio
+    st.markdown("### 🎓 Author Details")
+    
+    # You can use standard markdown for a professional look
+    st.info("""
+    **Name:** Jackson I M 
+    **Program:** MS Data Science
+    """)
+
 # Filter Logic
 filtered_df = df[df["species"].isin(species_selected)]
 
