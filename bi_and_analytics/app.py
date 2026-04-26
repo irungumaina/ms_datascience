@@ -32,8 +32,8 @@ with st.sidebar:
     
     # You can use standard markdown for a professional look
     st.info("""
-    **Name:** Jackson I M 
-    **Program:** MS Data Science
+    **Name:** [Jackson I M ]
+    **Program:** [MS Data Science]
     """)
 
 # Filter Logic
